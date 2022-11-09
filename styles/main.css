@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    font-family: sans-serif;
+    align-content: center;
+}
+
+.card {
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: rgb(0, 0, 0, 0.2);
+    padding: 32px 24px 24px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.card-info__item-sklad {
+    margin: 0;
+    color: #009901;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.card-info__item-cena {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 0;
+}
+
+.card button {
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #f56b00;
+    text-align: center;
+    font-size: 14px;
+    width: 125px;
+    margin: auto;
+}
+
+.card-image img {
+    width: 286px;
+    height: 215px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.flag {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background-color: #32CB00;
+    color: white;
+    align-content: center;
+    display: flex;
+    margin: 0;
+    padding: 2px 5px;
+    margin: -15px 0 0 -10px;
+}
+
+.flag p {
+    font-size: 15px;
+    margin: auto;
+}
+
+.flag-2 {
+    position: absolute;
+    border-radius: 100px;
+    background-color: #e31e53;
+    color: white;
+    align-content: center;
+    padding: 2px 5px;
+    font-weight: 600;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    margin: -25px 0px 0 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flag-2 p {
+    margin: 0;
+}
+
+.flag-sleva {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.flag-cena {
+    font-size: 14px;
+    text-decoration: line-through;
+}
