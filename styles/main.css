@@ -49,10 +49,10 @@ h2 {
 }
 
 .card-image img {
-    width: 286px;
+    max-width: 100%;
     height: 215px;
     object-fit: cover;
-    object-position: center;
+    justify-content: center;
 }
 
 .flag {
